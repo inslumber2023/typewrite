@@ -22,7 +22,7 @@ body {
   display: grid;
   place-content: center;
   text-align: center;
-  background: var(--bg-color);
+	background: var(--bg-color);
 }
 
 h1 {
@@ -71,7 +71,7 @@ h1::after {
   font-size: 2rem;
   font-weight: 400;
 	font-style: italic;
-	text-align: right;
+	text-align: right;	
   opacity: 0;
   transform: translateY(3rem);
   animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
